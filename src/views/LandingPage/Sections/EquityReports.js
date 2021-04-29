@@ -32,60 +32,7 @@ import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
-  const classes = useStyles();
-  const { ...rest } = props;
-  return (
-    <div>
-      <Header
-        brand="Material Kit React"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white"
-        }}
-        {...rest}
-      />
-
-      <Parallax image={require("assets/img/bg4.jpg")}>
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
-                <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3>
-              </div>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </Parallax>
-
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
-            <Button color="primary" size="lg" simple>
-              View Login Page
-            </Button>
-          </Link>
-        </GridItem>
-        <ResearchAndHiring />
-        <SectionDownload />
-      </div>
-      <Footer />
-    </div>
-  );
+export default function EquityReports() {
+    const classes = useStyles();
+    return;
 }

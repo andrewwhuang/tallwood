@@ -10,23 +10,23 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+import research from "assets/img/research.jpg";
+import hiring from "assets/img/hiring.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
 
-export default function SectionExamples() {
+export default function ResearchAndHiring() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <GridContainer justify="center">
+        <GridContainer justify="center" alignItems="stretch">
           <GridItem xs={12} sm={12} md={6}>
             <Link to="landing-page" className={classes.link}>
-              <img
-                src={landing}
+              <img alignItems="stretch"
+                src={research}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -36,15 +36,15 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
-                View landing page
+              <Button color="facebook" size="lg" simple>
+                View Research
               </Button>
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="profile-page" className={classes.link}>
-              <img
-                src={profile}
+            <Link to="landing-page" className={classes.link}>
+              <img alignItems="stretch"
+                src={hiring}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -54,8 +54,8 @@ export default function SectionExamples() {
                   classes.imgFluid
                 }
               />
-              <Button color="primary" size="lg" simple>
-                View profile page
+              <Button color="facebook" size="lg" simple>
+                Student Analyst Hiring
               </Button>
             </Link>
           </GridItem>

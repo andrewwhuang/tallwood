@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
+import ResearchAndHiring from "./Sections/ResearchAndHiring.js";
 
 const dashboardRoutes = [];
 
@@ -47,7 +48,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Tallwood Holdings</h1>
+              <h1 className={classes.title}> About Us</h1>
               <h4>
                 Tallwood Holdings Investment Group is a portfolio management
                 limited-partnership that has attracted $XX,XXX in investment
@@ -57,7 +58,7 @@ export default function LandingPage(props) {
 
               </h4>
               <br />
-              <Button
+              {/* <Button
                 color="danger"
                 size="lg"
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
@@ -66,16 +67,14 @@ export default function LandingPage(props) {
               >
                 <i className="fas fa-play" />
                 Watch video
-              </Button>
+              </Button> */}
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
-          <WorkSection />
+          <ResearchAndHiring />
         </div>
       </div>
       <Footer />
