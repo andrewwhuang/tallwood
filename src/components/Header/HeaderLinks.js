@@ -56,7 +56,7 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Report}
+          buttonIcon={Assessment}
           dropdownList={[
             <Link to="/research-page" className={classes.dropdownLink}>
               Research Reports
