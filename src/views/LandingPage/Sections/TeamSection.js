@@ -220,7 +220,7 @@ export default function TeamSection() {
                 <img src={ranger} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Ranger lee
+                Ranger Lee
                 <br />
                 <small className={classes.smallTitle}> Powerlifter </small>
               </h4>
@@ -238,7 +238,7 @@ export default function TeamSection() {
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
-                  href = "https://www.linkedin.com/in/victorchan1901/"
+                  href = "https://www.linkedin.com/in/ranger-lee/"
                   target = '_blank'
                   color="transparent"
                   className={classes.margin5}
@@ -273,7 +273,7 @@ export default function TeamSection() {
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
-                  href = "https://www.linkedin.com/in/victorchan1901/"
+                  href = "https://www.linkedin.com/in/williamhou4745/"
                   target = '_blank'
                   color="transparent"
                   className={classes.margin5}

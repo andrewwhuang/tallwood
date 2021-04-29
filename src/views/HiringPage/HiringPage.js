@@ -51,14 +51,14 @@ export default function HiringPage(props) {
                 Tallwood Holdings Investment Group is currently looking
                 for two student analysts to join the group. 
 
-                *Insert Hiring Package*
+                
 
               </h4>
               <br />
               <Button
                 color="twitter"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://docs.google.com/document/d/11iWaGbTn-oSNsirq5kgo3ktUS70KhxmfxVMYFDLbDbI/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

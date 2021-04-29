@@ -22,6 +22,7 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 import ResearchAndHiring from "./Sections/ResearchAndHiring.js";
+import { FormatBold } from "@material-ui/icons";
 
 const dashboardRoutes = [];
 
@@ -35,7 +36,6 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        font-weight= {9000}
         brand="Tallwood Holdings Investment Group"
         rightLinks={<HeaderLinks />}
         fixed
