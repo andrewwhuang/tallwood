@@ -24,7 +24,7 @@ export default function ResearchAndHiring() {
       <div className={classes.container}>
         <GridContainer justify="center" alignItems="stretch">
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="landing-page" className={classes.link}>
+            <Link to="research-page" className={classes.link}>
               <img alignItems="stretch"
                 src={research}
                 alt="..."
@@ -42,7 +42,7 @@ export default function ResearchAndHiring() {
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="landing-page" className={classes.link}>
+            <Link to="hiring-page" className={classes.link}>
               <img alignItems="stretch"
                 src={hiring}
                 alt="..."
