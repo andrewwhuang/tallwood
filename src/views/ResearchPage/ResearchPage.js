@@ -47,11 +47,7 @@ export default function ResearchPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> Equity Research </h1>
               <h4>
-                Tallwood Holdings Investment Group is a portfolio management
-                limited-partnership that has attracted $XX,XXX in investment
-                from our shareholders. We were founded in 2020 by like minded
-                individuals looking to gain hands on experience in managing a 
-                portfolio.
+                Page Under Construction
 
               </h4>
               <br />

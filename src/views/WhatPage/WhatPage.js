@@ -19,6 +19,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import ResearchAndHiring from "../LandingPage/Sections/ResearchAndHiring.js";
+import ProductSection from "views/LandingPage/Sections/ProductSection.js";
 
 const dashboardRoutes = [];
 
@@ -52,6 +53,19 @@ export default function WhatPage(props) {
                 from our shareholders. We were founded in 2020 by like minded
                 individuals looking to gain hands on experience in managing a 
                 portfolio.
+              </h4>
+              <h4>
+                Our executives range a variety of disciplines including finance,
+                accounting, consulting, and computer science and are distinguished
+                in their respective fields. Our portfolio currently covers the
+                following industries: technology, healthcare, consumer retail,
+                communication services, financial services, industrials, and 
+                natural resources. 
+              </h4>
+              <h4>
+                We create equity research and hire analysts for the maintenance
+                of our portfolio.
+
 
               </h4>
               <br />
@@ -71,6 +85,7 @@ export default function WhatPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <ProductSection />
           <ResearchAndHiring />
         </div>
       </div>

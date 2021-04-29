@@ -28,26 +28,24 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
 
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <AccountCircle className={classes.icons} /> What We Do
-        </Button>
-      </ListItem>
-
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <AccountCircle className={classes.icons} /> Our Team
-        </Button>
+<ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Information"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Report}
+          dropdownList={[
+            <Link to="/what-page" className={classes.dropdownLink}>
+              What We Do
+            </Link>,
+            <Link to="/team-page" className={classes.dropdownLink}>
+              Our Team
+            </Link> 
+          ]}
+        />
       </ListItem>
 
       <ListItem className={classes.listItem}>
@@ -60,16 +58,12 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Report}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/research-page" className={classes.dropdownLink}>
               Research Reports
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
+            <Link to="/legal-page" className={classes.dropdownLink}>
               Legal Disclaimer
-            </a>
+            </Link> 
           ]}
         />
       </ListItem>
@@ -84,16 +78,12 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Assessment}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/hiring-page" className={classes.dropdownLink}>
               Analyst Hiring
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
+            <Link to="/stakeholder-page" className={classes.dropdownLink}>
               Become a Stakeholder
-            </a>
+            </Link>
           ]}
         />
       </ListItem>

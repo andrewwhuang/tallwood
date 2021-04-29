@@ -47,24 +47,23 @@ export default function HiringPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> Now Hiring Analysts</h1>
               <h4>
-                Tallwood Holdings Investment Group is a portfolio management
-                limited-partnership that has attracted $XX,XXX in investment
-                from our shareholders. We were founded in 2020 by like minded
-                individuals looking to gain hands on experience in managing a 
-                portfolio.
+                
+                Tallwood Holdings Investment Group is currently looking
+                for two student analysts to join the group. 
+
+                *Insert Hiring Package*
 
               </h4>
               <br />
-              {/* <Button
-                color="danger"
+              <Button
+                color="twitter"
                 size="lg"
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
-              </Button> */}
+                Hiring Package
+              </Button>
             </GridItem>
           </GridContainer>
         </div>

@@ -19,6 +19,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import ResearchAndHiring from "../LandingPage/Sections/ResearchAndHiring.js";
+import TeamSection from "../LandingPage/Sections/TeamSection.js";
 
 const dashboardRoutes = [];
 
@@ -71,6 +72,7 @@ export default function TeamPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <TeamSection />
           <ResearchAndHiring />
         </div>
       </div>

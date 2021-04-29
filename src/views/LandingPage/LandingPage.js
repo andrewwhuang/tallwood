@@ -35,6 +35,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
+        font-weight= {9000}
         brand="Tallwood Holdings Investment Group"
         rightLinks={<HeaderLinks />}
         fixed
@@ -56,6 +57,9 @@ export default function LandingPage(props) {
                 individuals looking to gain hands on experience in managing a 
                 portfolio.
 
+              </h4>
+              <h4>
+                This website is currently under development. 
               </h4>
               <br />
               {/* <Button

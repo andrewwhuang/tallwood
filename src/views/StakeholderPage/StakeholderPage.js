@@ -47,11 +47,9 @@ export default function StakeholderPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}> Become a Stakeholder</h1>
               <h4>
-                Tallwood Holdings Investment Group is a portfolio management
-                limited-partnership that has attracted $XX,XXX in investment
-                from our shareholders. We were founded in 2020 by like minded
-                individuals looking to gain hands on experience in managing a 
-                portfolio.
+                
+                To inquire about becoming a stakeholder or general member,
+                reach out to us on LinkedIn, or at tallwoodholdingsgroup@gmail.com.
 
               </h4>
               <br />
