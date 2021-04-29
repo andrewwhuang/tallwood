@@ -7,12 +7,13 @@ import { Link } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { Redirect } from "react-router-dom";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { AccountCircle, Apps, Assessment, AttachMoney, CloudDownload, Money, TabletMac } from "@material-ui/icons";
+import { AccountCircle, Assessment, Report} from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -50,25 +51,27 @@ export default function HeaderLinks(props) {
       </ListItem>
 
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <AccountCircle className={classes.icons} /> Our Research
-        </Button>
-      </ListItem>
-
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <AccountCircle className={classes.icons} /> Legal Disclaimer
-        </Button>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Equity Research"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Report}
+          dropdownList={[
+            <Link to="/" className={classes.dropdownLink}>
+              Research Reports
+            </Link>,
+            <a
+              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Legal Disclaimer
+            </a>
+          ]}
+        />
       </ListItem>
 
       <ListItem className={classes.listItem}>
@@ -89,7 +92,7 @@ export default function HeaderLinks(props) {
               target="_blank"
               className={classes.dropdownLink}
             >
-              Stakeholder
+              Become a Stakeholder
             </a>
           ]}
         />
@@ -121,3 +124,7 @@ export default function HeaderLinks(props) {
     </List>
   );
 }
+
+
+//
+
