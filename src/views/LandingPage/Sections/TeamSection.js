@@ -16,12 +16,12 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import andrew from "assets/img/headshots/andrew.jpeg";
+import andrew from "assets/img/headshots/andrew.png";
 import ryan from "assets/img/headshots/ryan.jpg";
 import harvey from "assets/img/headshots/harvey.png";
 import victor from "assets/img/headshots/victor.jpg";
 import william from "assets/img/headshots/william.jpg";
-import ranger from "assets/img/headshots/ranger.jpeg";
+import ranger from "assets/img/headshots/ranger.png";
 import nash from "assets/img/headshots/nash.jpg";
 
 const useStyles = makeStyles(styles);
