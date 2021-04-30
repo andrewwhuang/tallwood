@@ -12,6 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import { AssessmentOutlined, Money, MoneyOff, MoneyOffOutlined, MoneyRounded, MoneyTwoTone } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
 
@@ -21,13 +22,14 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>What we do</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Our group directly manages and executes orders on our portfolio,
+            and conduct periodic analyses of our stocks, as well as potential,
+            buys in our executives' respective industries.
+          </h5>
+          <h5 className={classes.description}>
+            We break down our operations into three main components.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,17 +37,17 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              title="Equity Research"
+              description="Our analysts are highly knowledgable in their respective sectors and produce equity reports to highlight potential investment opportunities."
+              icon={AssessmentOutlined}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Portfolio Management"
+              description="Our executives oversee the portfolio and makes decisions off of its performance."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -53,9 +55,9 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              title="Attract Investment"
+              description="We attract capital based off of our high performing fund, and do not take any commission."
+              icon={MoneyRounded}
               iconColor="danger"
               vertical
             />
