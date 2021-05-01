@@ -23,6 +23,7 @@ import victor from "assets/img/headshots/victor.jpg";
 import william from "assets/img/headshots/william.jpg";
 import ranger from "assets/img/headshots/ranger.png";
 import nash from "assets/img/headshots/nash.jpg";
+import nashDrunk from "assets/img/headshots/nashDrunk.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -47,17 +48,16 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Ryan Peng
                 <br />
-                <small className={classes.smallTitle}> President </small>
+                <small className={classes.smallTitle}> Managing Director </small>
               </h4>
               <CardBody>
                 <p>
                   Fourth Year Finance
                 </p>
                 <p className={classes.description}>
-                  Industries: Consumer Retail, Financial Services
+                  Industries: Industrials
                 </p>
                 <p className={classes.description}>
-                  Insert Placement
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -82,14 +82,14 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Andrew Huang
                 <br />
-                <small className={classes.smallTitle}> Vice President </small>
+                <small className={classes.smallTitle}> Director </small>
               </h4>
               <CardBody>
                 <p>
                   Fourth Year Business and Computer Science
                 </p>
                 <p className={classes.description}>
-                  Industries: Technology, Telecommunications
+                  Industries: Technology
                 </p>
                 <p className={classes.description}>
                   Software Developer at Whatifi.io
@@ -117,17 +117,17 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Victor Chan
                 <br />
-                <small className={classes.smallTitle}>Account Manager</small>
+                <small className={classes.smallTitle}> Vice President </small>
               </h4>
               <CardBody>
                 <p>
                   Fourth Year Accounting
                 </p>
                 <p className={classes.description}>
-                  Industries: Natural Resources, Commodities
+                  Industries: Natural Resources
                 </p>
                 <p className={classes.description}>
-                  Accountant at First Mining Gold Corp
+                  Accountant at First Mining Gold Corporation
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -152,17 +152,17 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Harvey Ying
                 <br />
-                <small className={classes.smallTitle}> Account Something </small>
+                <small className={classes.smallTitle}> Vice President </small>
               </h4>
               <CardBody>
                 <p>
                   Fourth Year Finance
                 </p>
                 <p className={classes.description}>
-                  Industries: Consumer Retail
+                  Industries: Consumer Retail, Financial Institutions
                 </p>
                 <p className={classes.description}>
-                  Insert Placement
+                  Finance Operations Specialist at Life Sciences British Columbia
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -182,22 +182,22 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={nash} alt="..." className={imageClasses} />
+                <img src={nashDrunk} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Nash Sebben
                 <br />
-                <small className={classes.smallTitle}> Lead Analyst </small>
+                <small className={classes.smallTitle}> Vice President </small>
               </h4>
               <CardBody>
                 <p>
-                  Fifth Year Economics
+                  Fourth Year Economics
                 </p>
                 <p className={classes.description}>
-                  Industries: TBD
+                  Industries: Communication Services
                 </p>
                 <p className={classes.description}>
-                  Dancer at Boy Toy NightClub
+                  Data Analyst at Vancouver Coastal Health
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -222,17 +222,16 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Ranger Lee
                 <br />
-                <small className={classes.smallTitle}> Powerlifter </small>
+                <small className={classes.smallTitle}> Vice President </small>
               </h4>
               <CardBody>
                 <p>
                   Fourth Year Finance
                 </p>
                 <p className={classes.description}>
-                  Industries: TBD
+                  Industries: Healthcare, Financial Services
                 </p>
                 <p className={classes.description}>
-                  Professional Simp
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -255,19 +254,19 @@ export default function TeamSection() {
                 <img src={william} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                William Hoe
+                William Hou
                 <br />
-                <small className={classes.smallTitle}> Parking in the teacher stall </small>
+                <small className={classes.smallTitle}> Vice President </small>
               </h4>
               <CardBody>
                 <p>
-                  Fourth Year Finance
+                  Fourth Year Accounting and Real Estate
                 </p>
                 <p className={classes.description}>
-                  Industries: TBD
+                  Industries: Natural Resources, Healthcare
                 </p>
                 <p className={classes.description}>
-                  Consultant at Deloitte
+                  Strategy Consultant at Monitor Deloitte
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
