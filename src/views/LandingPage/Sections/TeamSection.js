@@ -23,7 +23,6 @@ import victor from "assets/img/headshots/victor.jpg";
 import william from "assets/img/headshots/william.jpg";
 import ranger from "assets/img/headshots/ranger.png";
 import nash from "assets/img/headshots/nash.jpg";
-import nashDrunk from "assets/img/headshots/nashDrunk.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -182,7 +181,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={nashDrunk} alt="..." className={imageClasses} />
+                <img src={nash} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Nash Sebben
