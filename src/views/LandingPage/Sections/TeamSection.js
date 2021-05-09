@@ -81,7 +81,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Andrew Huang
                 <br />
-                <small className={classes.smallTitle}> Director </small>
+                <small className={classes.smallTitle}> IT Director / Principal Software Engineer  </small>
               </h4>
               <CardBody>
                 <p>
