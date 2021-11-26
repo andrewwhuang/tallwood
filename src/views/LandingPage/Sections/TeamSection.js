@@ -47,7 +47,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Ryan Peng
                 <br />
-                <small className={classes.smallTitle}> Managing Director </small>
+                <small className={classes.smallTitle}> President </small>
               </h4>
               <CardBody>
                 <p>
@@ -57,6 +57,7 @@ export default function TeamSection() {
                   Industries: Industrials
                 </p>
                 <p className={classes.description}>
+                  Intern at Fidelity Investments
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -91,7 +92,7 @@ export default function TeamSection() {
                   Industries: Technology
                 </p>
                 <p className={classes.description}>
-                  Software Developer at Whatifi.io
+                  Software Developer Intern at SAP Concur
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
